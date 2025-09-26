@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — QuoteNest</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">QuoteNest</a>
+      <button id="toggleBtn">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quotes.html">Quotes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="contact-page">
+    <div class="contact-container">
+      <h1>Contact Us ✨</h1>
+      <p>Got questions, feedback, or just wanna say hi? Drop us a message below! 💌</p>
+
+      <form id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your awesome name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">© 2025 QuoteNest • <a href="contact.html">Contact</a></div>
+  </footer>
+    <script src="main.js"></script>
+</body>
+</html>

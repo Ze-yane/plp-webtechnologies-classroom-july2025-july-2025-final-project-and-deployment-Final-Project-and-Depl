@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Quote Nest</title>
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">QuoteNest</a>
+      <button id="toggleBtn">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="quotes.html">Quotes</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="container">
+      <h1>Discover and Download Beautiful Quote Images</h1>
+      <p>Your daily dose of motivation, inspiration and quotes that could make your day.</p>
+      <a class="btn" href="quotes.html">Explore Quotes</a>
+    </div>
+  </section>
+
+  <!-- ===== Quote of the Day ===== -->
+  <section class="qotd container">
+    <h2>✨ Quote of the Day</h2>
+    <div class="card center" >
+      <img id="qotd-img" src="tq.jpg" alt="Quote of the Day">
+      <button class="btn small download-img" data-img="tq.jpg">Download</button>
+    </div>
+  </section>
+
+  <!-- ===== Featured Quotes ===== -->
+  <section class="featured container">
+    <h2>Popular Quotes</h2>
+    <div class="grid">
+      <article class="card">
+        <img src="repop.png" alt="Inspirational Quote 1">
+        <button class="btn small download-img" data-img="repop.png">Download</button>
+      </article>
+      <article class="card">
+        <img src="pop2.jpg" alt="Inspirational Quote 2">
+        <button class="btn small download-img" data-img="pop2.jpg">Download</button>
+      </article>
+      <article class="card">
+        <img src="repop2.jpg" alt="Inspirational Quote 3">
+        <button class="btn small download-img" data-img="repop2.jpg">Download</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">© 2025 QuoteVault • <a href="contact.html">Contact</a></div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
